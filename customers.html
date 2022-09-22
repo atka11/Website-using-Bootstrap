@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vets & Pets</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand spaced" href="#">Vets & Pets</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="customers.html">Customers</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+
+    <!-- Main contents of the page -->
+    <div class="container">
+      <!-- Carousel -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="Mr-Ginge.webp" class="d-block w-100" alt="Mr Ginge the cat">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mr Ginge</h5>
+              <p>Very popular with our vets, Mr Ginge is a vocal cat that lets you know what he wants.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="Jasper.webp" class="d-block w-100" alt="Jasper the cat">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Jasper</h5>
+              <p>A curious cat who has a penchant for eating plants and never stops exploring.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Echo.jpg" class="d-block w-100" alt="Echo the cat">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Echo</h5>
+              <p>Usually aloof, Echo ocassionally flops over and accepts petting when nobody's looking.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+      
+    <!-- Sign up -->
+    <section class="container" id="form">
+      <h3>Sign up for our newsletter</h3>
+      <form>
+          <div class="row">
+              <div class="col boxes">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col boxes">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+          </div>
+          <div class="form-group boxes">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>            
+          <div class="form-check boxes">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary boxes">Submit</button>
+      </form>
+    </section>
+        
+    <!-- Footer -->
+    <footer class="container-fluid ftr-blue">
+      <table class="table table-borderless spaced">
+        <thead>
+          <tr id="uppercase">
+            <th scope="col">Explore the site</th>
+            <th scope="col">Visit Us</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Home</td>
+            <td>Vets & Pets</td>
+          </tr>
+          <tr>
+            <td>Services</td>
+            <td>Langford House</td>
+          </tr>
+          <tr>
+            <td>Customers</td>
+            <td>Langford, BS40 5DU</td>
+          </tr>
+        </tbody>
+      </table>
+    </footer>    
+</body>
+</html>
